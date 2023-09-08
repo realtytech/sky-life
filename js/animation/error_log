@@ -1,0 +1,4 @@
+[06-Jun-2023 20:50:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wt() in /home/dpum41cdoyi3/public_html/js/animation/efsqbyzd.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/dpum41cdoyi3/public_html/js/animation/efsqbyzd.php on line 5

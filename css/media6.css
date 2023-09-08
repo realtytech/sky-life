@@ -1,0 +1,798 @@
+@media only screen and (max-width: 600px){
+	body{
+		font-size: 15px;
+	}
+	.section-head {
+		text-transform: uppercase;
+		color: #dba550;
+		padding: 10px 0px;
+		font-weight: bold;
+		font-size: 25px;
+		margin: 0px;
+	}
+	.heading-hr {
+		margin-top: 0px;
+		margin-bottom: 20px;
+		border: 0;
+		width: 30%;
+		border: 1px solid #813292;
+	}
+	.demo-gallery > ul > li a{
+	    height: auto !important;
+	    padding-bottom: 20px;
+	}
+	.demo-gallery > ul > li a > img{
+	     height: auto !important;
+	}
+	.heading-hr1 {
+		margin-top: 0px;
+		margin-bottom: 20px;
+		border: 0;
+		width: 40%;
+		border: 1px solid #dba550;
+	}
+	/* =============== navbar start =============== */
+	.navbar-header {
+		height: 70px;
+	}
+	.navbar-default {
+		background-color: #fff;
+		position: fixed;
+		margin-bottom: 0;
+		height: 70px !important;
+		border-bottom: 2px solid #794925;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #e7e7e7;
+		margin: 0px;
+		width: 100%;
+	}
+	.nav>li>a {
+		color: #000 !important;
+		font-weight: 600;
+		line-height: 0px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #000;
+	}
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+		height: inherit;
+	}
+	.navbar-nav>li {
+		padding: 6px;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar {
+		background-color: #000;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #777;
+		text-align: center;
+	}
+	.navbar-nav {
+		margin: 15px 0;
+		background: #fff;
+		border: 1px solid #000;
+	}
+	
+	.circle {
+		z-index: 99;
+		left: 10px;
+	}
+	.circle1 {
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 30%;
+	}
+	.navbar-brand>img {
+		margin: 0 auto;
+		width: 100px;
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+	/* =============== navbar End =============== */
+	/* =============== Overview Start =============== */
+	.innerOverview {
+    		padding: 40px 0px 240px;
+    		background: url(../img/bg01.png);
+    		background-repeat: no-repeat;
+    		background-size: cover !important;
+	}
+	.overviewtext {
+		margin-top: 10%;
+		text-align: justify;
+		padding-left: 0px;
+	}
+	/* =============== Overview End =============== */
+	/* =============== Projecthighlight Start =============== */
+	.additional-amenities {
+		margin-top: 10%;
+	}
+	.projecthighlight-inner .owl-nav .owl-next {
+		right: -20px;
+		position: absolute;
+	}
+	.projecthighlight-inner .owl-nav .owl-prev {
+		left: -20px;
+		position: absolute;
+	}
+	/* =============== Projecthighlight End =============== */
+	/* =============== Configuration Start =============== */
+	.configareasection {
+		margin-top: 10%;
+	}
+	.Configurationbox {
+		border: 5px solid #fff;
+		margin-bottom: 20px;
+	}
+	/* =============== Configuration End =============== */
+	/* =============== LocationAdvantage Start =============== */
+	.LocationAdvantagessection {
+		margin-top: 10%;
+	}
+	.innerLocationAdvantages {
+		padding: 30px 0px;
+	}
+	.accordion {
+		position: relative;
+		width: 100%;
+		margin-top: 25px;
+	}
+	[id*="open-accordion"], [id*="close-accordion"] {
+		border: 1px solid #000;
+		line-height: 40px;
+		height: 44px;
+		margin: 0 auto;
+		position: relative;
+		width: 90%;
+		margin-left: 15%;
+	}
+	/* =============== LocationAdvantage End =============== */
+	/* =============== Gallery Start =============== */
+	.nav-pills>li {
+		width: 49% !important;
+		text-align: center;
+		color: #fff !important;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.innergallery .nav.nav-pills {
+		display: block;
+		justify-content: center;
+		margin-bottom: 20px;
+		margin-top: 10%;
+	}
+	.innergallery .nav>li>a {
+		color: #813292 !important;
+    		background-color: #fff0;
+    		border: 1px solid #813292;
+		padding: 20px;
+	}
+	.innergallery .owl-nav .owl-next {
+		right: 0px;
+		position: absolute;
+	}
+	.innergallery .owl-nav .owl-prev {
+		left: 0px;
+		position: absolute;
+	}
+	/* =============== Gallery End =============== */
+	/* =============== Infrastructure Start =============== */
+	.Infrastructuresection {
+		margin-top: 10%;
+	}
+	.Infrastructurebox {
+		margin-bottom: 20px;
+	}
+	.projectbox {
+		margin-bottom: 0px;
+		overflow: hidden;
+	}
+	/* =============== Infrastructure End =============== */
+	/* =============== AboutProject Start =============== */
+	.additionalAmenities {
+		margin-top: 10%;
+	}
+	.AboutProjectboxnew {
+		margin-top: 10%;
+	}
+	.AboutProjectbox1 {
+    		margin: 0px auto;
+    		width: 30%;
+	}
+	.AboutProjectbox2 {
+    		margin: 0px auto;
+    		width: 30%;
+	}
+	.AboutProjectbox {
+		text-align: center;
+		border: 1px solid #000;
+		padding: 25px 10px;
+		margin-bottom: 5%;
+	}
+	/* =============== AboutProject End =============== */
+	/* =============== ContactUs Start =============== */
+	.contactbox {
+		margin-top: 10%;
+	}
+	.formbackground {
+		background: url(../img/contactformbg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 30px 0px;
+		margin-top: 5%;
+	}
+	/* =============== ContactUs End =============== */
+	/* =============== Popup Start =============== */	
+	#popupModal .modal-dialog, #price .modal-dialog {
+		width: 95%;
+	}
+	.formwidth {
+		width: 100%;
+		float: unset;
+		padding: 2px 5px;
+	}
+	/* =============== Popup End =============== */
+	/* =============== foterform Start =============== */	
+	#inquiryForm{
+		display: none;
+		background-color: #18979a;
+	}
+	.inquireButton {
+		display: block;
+		background-color: #823293;
+		border: 1px solid #000;
+		margin: 0px 0px;
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		color: #fff;
+		padding: 10px;
+		z-index: 99;
+	}
+	.inquireButtoncall {
+		display: block;
+		background-color: #823293;
+		border: 1px solid #000;
+		margin: 0px 2px;
+		width: 49%;
+		position: fixed;
+		bottom: 0px;
+		color: #fff;
+		padding: 10px;
+		z-index: 99;
+	}
+	.inquireButton:hover{
+		color: #fff;
+	}
+	#address {
+		padding: 20px 0;
+		background-color: #fff;
+		margin-bottom: 30px;
+	}
+	#address p {
+		text-transform: uppercase;
+		font-size: 12px;
+		padding: 0;
+		text-align: center;
+		margin: 0;
+		font-weight: 400;
+		color: #000;
+		margin-bottom: 2px;
+	}
+	/* =============== foterform End =============== */
+	/* =============== instant-callback Start =============== */	
+	#instant-callback-div{
+		top: 27%;
+	}
+	/* =============== instant-callback End =============== */
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+	#lock{ display:block;text-align: center;position: relative;top: 50%;font-size: 34px;}
+	.wrapper{ display:none; }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+	#lock{ display:none; }
+	.wrapper{ display:block; }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+	#lock{ display:block;text-align: center;position: relative;top: 50%;font-size: 34px;}
+	.wrapper{ display:none; }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+	#lock{ display:none; }
+	.wrapper{ display:block; }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+	#lock{ display:block;text-align: center;position: relative;top: 50%;font-size: 34px;}
+	.wrapper{ display:none; }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+	#lock{ display:none; }
+	.wrapper{ display:block; }
+}
+@media screen and (min-width: 320px) and (max-width: 640px) and (orientation: landscape) {
+	#lock{ display:block;text-align: center;position: relative;top: 50%;font-size: 34px;}
+	.wrapper{ display:none; }
+}
+@media screen and (min-width: 320px) and (max-width: 640px) and (orientation: portrait) {
+	#lock{ display:none; }
+	.wrapper{ display:block; }
+}
+@media screen and (min-width: 600px) and (max-width: 960px) and (orientation: landscape) {
+	#lock{ display:block;text-align: center;position: relative;top: 50%;font-size: 34px;}
+	.wrapper{ display:none; }
+}
+@media screen and (min-width: 600px) and (max-width: 960px) and (orientation: portrait) {
+	#lock{ display:none; }
+	.wrapper{ display:block; }
+	/* =============== Navbar Start =============== */
+	.navbar-header {
+		float: none;
+		height: 70px;
+	}
+	.navbar-collapse {
+		width: 100%;
+	}
+	.nav>li>a {
+		color: #000 !important;
+		padding: 15px 18px;
+		text-transform: uppercase;
+		line-height: 30px;
+	}
+	.navbar-left,
+	.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+		background-color: #fff;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		margin: 15px 0;
+		float: none!important;
+		background: #fff;
+		border: 1px solid #fff;
+	}
+	.navbar-nav>li {
+		padding: 10px 15px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #000 !important;
+		text-align: center;
+	}
+	.collapse.in {
+		display: block !important;
+	}
+	.dropdown-menu {
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.circle {
+		z-index: 99;
+		left: 10px;
+	}
+	.circle1 {
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 40%;
+	}
+	.navbar-brand>img {
+		margin: 0 auto;
+		width: 100px;
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+	/* =============== Navbar End =============== */
+	/* =============== Overview Start =============== */
+	.innerOverview {
+                padding: 40px 0px 240px;
+                background: url(../img/aboutbgmobile.jpg);
+                background-repeat: no-repeat;
+                background-size: cover !important;
+        }
+	.overviewtext {
+		margin-top: 10%;
+		padding-left: 0px;
+	}
+	/* =============== Overview End =============== */
+	/* =============== Projecthighlight Start =============== */
+	.additional-amenities {
+		margin-top: 10%;
+	}
+	/* =============== Projecthighlight End =============== */
+	/* =============== Configuration Start =============== */
+	.configareasection {
+		margin-top: 10%;
+	}
+	.Configurationbox {
+		border: 5px solid #fff;
+		margin-bottom: 20px;
+	}
+	/* =============== Configuration End =============== */
+	/* =============== LocationAdvantage Start =============== */
+	.LocationAdvantagessection {
+		margin-top: 10%;
+	}
+	.innerLocationAdvantages {
+		padding: 30px 0px;
+	}
+	.accordion {
+		position: relative;
+		width: 100%;
+		margin-top: 25px;
+	}
+	[id*="open-accordion"], [id*="close-accordion"] {
+		border: 1px solid #000;
+		line-height: 40px;
+		height: 44px;
+		margin: 0 auto;
+		position: relative;
+		width: 92%;
+		margin-left: 8%;
+	}
+	/* =============== LocationAdvantage End =============== */
+	/* =============== Gallery Start =============== */
+	.innergallery .nav.nav-pills {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+		margin-top: 10%;
+	}
+	.innergallery .nav>li>a {
+		color: #813292 !important;
+    		background-color: #fff0;
+    		border: 1px solid #813292;
+		padding: 20px;
+	}
+	.innergallery .owl-nav .owl-next {
+		right: 0px;
+		position: absolute;
+	}
+	.innergallery .owl-nav .owl-prev {
+		left: 0px;
+		position: absolute;
+	}
+	/* =============== Gallery End =============== */
+	/* =============== Infrastructure Start =============== */
+	.Infrastructuresection {
+		margin-top: 10%;
+	}
+	.Infrastructurebox {
+		margin-bottom: 20px;
+	}
+	.projectbox {
+		margin-bottom: 0px;
+		overflow: hidden;
+	}
+	/* =============== Infrastructure End =============== */
+	/* =============== AboutProject Start =============== */
+	.additionalAmenities {
+		margin-top: 10%;
+	}
+	.AboutProjectboxnew {
+		margin-top: 10%;
+	}
+	.AboutProjectbox {
+		text-align: center;
+		border: 1px solid #000;
+		padding: 25px 10px;
+		margin-bottom: 5%;
+	}
+	/* =============== AboutProject End =============== */
+	/* =============== ContactUs Start =============== */
+	.contactbox {
+		margin-top: 10%;
+	}
+	.formbackground {
+		background: url(../img/contactformbg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 30px 0px;
+		margin-top: 5%;
+	}
+	/* =============== ContactUs End =============== */
+	/* =============== form Start =============== */
+	.modal-dialog {
+		width: 85%;
+	}
+	#popupModal .modal-dialog {
+		width: 85%;
+		margin: 30px auto;
+	}
+	.formwidth {
+		width: 100%;
+		float: unset;
+		padding: 2px 5px;
+	}
+	#inquiryForm{
+		display: none;
+		background-color: #18979a;
+	}
+	.inquireButton {
+		display: block;
+		background-color: #794925;
+		border-top: 1px solid #fff;
+		margin: 0 auto;
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		color: #fff;
+		padding: 10px;
+	}
+	.inquireButton:hover{
+		color: #fff;
+	}
+	/* =============== form End =============== */
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) and (orientation: landscape) {
+	#lock{ display:block;text-align: center;position: relative;top: 50%;font-size: 34px;}
+	.wrapper{ display:none; }
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {
+	#lock{ display:none; }
+	.wrapper{ display:block; }
+	/* =============== Navbar Start =============== */
+	.navbar-header {
+		float: none;
+		height: 70px;
+	}
+	.navbar-collapse {
+		width: 100%;
+	}
+	.nav>li>a {
+		color: #000 !important;
+		padding: 15px 18px;
+		text-transform: uppercase;
+		line-height: 30px;
+	}
+	.navbar-left,
+	.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+		background-color: #fff;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+	.demo-gallery > ul {
+    margin-bottom: 20px;
+}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		margin: 15px 0;
+		float: none!important;
+		background: #fff;
+		border: 1px solid #fff;
+	}
+	.navbar-nav>li {
+		padding: 10px 15px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #000 !important;
+		text-align: center;
+	}
+	.collapse.in {
+		display: block !important;
+	}
+	.dropdown-menu {
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.circle {
+		z-index: 99;
+		left: 10px;
+	}
+	.circle1 {
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 40%;
+	}
+	.navbar-brand>img {
+		margin: 0 auto;
+		width: 100px;
+		position: absolute;
+		top: 0px;
+		left: 10px;
+	}
+	/* =============== Navbar End =============== */
+	/* =============== Overview Start =============== */
+	.innerOverview {
+                padding: 40px 0px 240px;
+                background: url(../img/aboutbgmobile.jpg);
+                background-repeat: no-repeat;
+                background-size: cover  !important;
+        }
+	.overviewtext {
+		margin-top: 10%;
+		padding-left: 0px;
+	}
+	/* =============== Overview End =============== */
+	/* =============== Projecthighlight Start =============== */
+	.additional-amenities {
+		margin-top: 10%;
+	}
+	/* =============== Projecthighlight End =============== */
+	/* =============== Configuration Start =============== */
+	.configareasection {
+		margin-top: 10%;
+	}
+	.Configurationbox {
+		border: 5px solid #fff;
+		margin-bottom: 20px;
+	}
+	/* =============== Configuration End =============== */
+	/* =============== LocationAdvantage Start =============== */
+	.LocationAdvantagessection {
+		margin-top: 10%;
+	}
+	.innerLocationAdvantages {
+		padding: 30px 0px;
+	}
+	.accordion {
+		position: relative;
+		width: 100%;
+		margin-top: 25px;
+	}
+	[id*="open-accordion"], [id*="close-accordion"] {
+		border: 1px solid #000;
+		line-height: 40px;
+		height: 44px;
+		margin: 0 auto;
+		position: relative;
+		width: 92%;
+		margin-left: 8%;
+	}
+	/* =============== LocationAdvantage End =============== */
+	/* =============== Gallery Start =============== */
+	.innergallery .nav.nav-pills {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+		margin-top: 10%;
+	}
+	.innergallery .nav>li>a {
+		color: #813292 !important;
+    		background-color: #fff0;
+    		border: 1px solid #813292;
+		padding: 20px;
+	}
+	.innergallery .owl-nav .owl-next {
+		right: 0px;
+		position: absolute;
+	}
+	.innergallery .owl-nav .owl-prev {
+		left: 0px;
+		position: absolute;
+	}
+	/* =============== Gallery End =============== */
+	/* =============== Infrastructure Start =============== */
+	.Infrastructuresection {
+		margin-top: 10%;
+	}
+	.Infrastructurebox {
+		margin-bottom: 20px;
+	}
+	.projectbox {
+		margin-bottom: 0px;
+		overflow: hidden;
+	}
+	/* =============== Infrastructure End =============== */
+	/* =============== AboutProject Start =============== */
+	.additionalAmenities {
+		margin-top: 10%;
+	}
+	.AboutProjectboxnew {
+		margin-top: 10%;
+	}
+	.AboutProjectbox {
+		text-align: center;
+		border: 1px solid #000;
+		padding: 25px 10px;
+		margin-bottom: 5%;
+	}
+	/* =============== AboutProject End =============== */
+	/* =============== ContactUs Start =============== */
+	.contactbox {
+		margin-top: 10%;
+	}
+	.formbackground {
+		background: url(../img/contactformbg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 30px 0px;
+		margin-top: 5%;
+	}
+	/* =============== ContactUs End =============== */
+	/* =============== form Start =============== */
+	.modal-dialog {
+		width: 85%;
+	}
+	#inquiryForm{
+		display: none;
+		background-color: #18979a;
+	}
+	.inquireButton {
+		display: block;
+		background-color: #794925;
+		border-top: 1px solid #fff;
+		margin: 0 auto;
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		color: #fff;
+		padding: 10px;
+	}
+	.inquireButton:hover{
+		color: #fff;
+	}
+	#popupModal .modal-dialog {
+		width: 85%;
+		margin: 30px auto;
+	}
+	.formwidth {
+		width: 100%;
+		float: unset;
+		padding: 2px 5px;
+	}
+	/* =============== form End =============== */
+}
