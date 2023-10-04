@@ -306,11 +306,55 @@ $("form").submit(function (e) {
 
   }
 
-  console.log(data);
-  storeLeadInEnrichr(data, formName);
-  return;
+  var sfdcData = {
+    "req":
+    {
+    "name": name,
+    "mobile": mobile,
+    "phone":  "",
+    "email": email, 
+    "alternateEmail":  "",
+    "campaignCode": "a025i00000VUkdJAAT",
+    "url":currentUrl.substring(0,255),
+    "remarks": "Source:" + utm_source + "|Medium:" + utm_medium + "|term:" + utm_term + "|content:" + utm_content + "|campaign:" + utm_campaign + "|URL:" + currentUrl.substring(0, 255),
+    "UTM_Medium":  utm_medium,
+    "UTM_Source":  utm_source,
+    "LeadIdentifier":  "post"
+    }
+}
+
+storeLeadInSFDC(sfdcData);
+
+// storeLeadInEnrichr(data,formName);
+return;
 
 });
+
+
+function storeLeadInSFDC(data) {
+  console.log(data)
+  var settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "https://l3g8sgyj77.execute-api.ap-south-1.amazonaws.com/Production",
+      "method": "POST",
+      "headers": {
+          "content-type": "application/json",
+      },
+      "processData": false,
+      "data": JSON.stringify(data)
+  }
+
+  $.ajax(settings).done(function (response) {
+      console.log(response);
+      storeLeadInDB(data["name"], data["email"], data["mobile"], JSON.stringify(response));
+      setTimeout(function redirect_response() { window.location.href = "response.html"; }, 2000);
+      return;
+
+  });
+
+}
+
 
 function storeLeadInEnrichr(data, formName) {
   console.log("Adding Data to Enrichr");
